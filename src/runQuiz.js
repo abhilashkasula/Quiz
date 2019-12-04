@@ -2,6 +2,7 @@ const questionBank = require("../data/questions.json");
 const { stdin, stdout } = require("process");
 const { printQuestion, isUserAnsCorrect } = require("../src/utils");
 stdin.setEncoding("utf8");
+stdin.setRawMode(true);
 
 const runQuiz = () => {
   let count = 0;
