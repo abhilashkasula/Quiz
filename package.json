@@ -1,0 +1,20 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node quiz.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhilashkasula/Quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhilashkasula/Quiz/issues"
+  },
+  "homepage": "https://github.com/abhilashkasula/Quiz#readme"
+}
