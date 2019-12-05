@@ -1,8 +1,7 @@
 const { stdout } = require("process");
 
-const isUserAnsCorrect = (usrAns, expectedAns, correctAnsNo) => {
-  usrAns == expectedAns && (correctAnsNo += 1) && stdout.write("correct ans\n");
-  return correctAnsNo;
+const isUserAnsCorrect = (usrAns, expectedAns) => {
+  return usrAns == expectedAns;
 };
 
 const printQuestion = (question, options) => {
